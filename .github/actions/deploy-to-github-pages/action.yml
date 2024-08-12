@@ -79,7 +79,7 @@ runs:
 
     - name: check for broken links
       id: lychee
-      uses: lycheeverse/lychee-action@0c9944245b62123a43a4c3f5136e30707dece87c # until an official version is out that includes https://github.com/lycheeverse/lychee/pull/1422
+      uses: lycheeverse/lychee-action@00940b2d8a52e9f94caeada8d944966a5274a302 # until an official version is out that includes https://github.com/lycheeverse/lychee/pull/1422
       with:
         lycheeVersion: nightly # until an official version includes https://github.com/lycheeverse/lychee/pull/1422
         args: >-
