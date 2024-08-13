@@ -21,16 +21,16 @@ url: "/book/zh/v2/附录-B:-在你的应用中嵌入-Git-Dulwich.html"
 <h2 id="_dulwich">Dulwich</h2>
 <div class="paragraph">
 <p>
-There is also a pure-Python Git implementation - Dulwich.
-The project is hosted under <a href="https://www.dulwich.io/" class="bare">https://www.dulwich.io/</a>
-It aims to provide an interface to git repositories (both local and remote) that doesn’t call out to git directly but instead uses pure Python.
-It has an optional C extensions though, that significantly improve the performance.</p>
+这还有一个纯-Python 的 Git 实现——Dulwich。
+该项目托管在 <a href="https://www.dulwich.io/" class="bare">https://www.dulwich.io/</a>。
+它旨在在提供一个与 Git 存储库(本地和远程)的接口，该接口不直接调用 git，而是使用纯 Python。
+它有一个可选的 C 扩展，可以显著提高性能。</p>
 </div>
 <div class="paragraph">
-<p>Dulwich follows git design and separate two basic levels of API: plumbing and porcelain.</p>
+<p>Dulwich 遵循 git 设计，将 API 分为两个基本级别：底层命令和上层命令。</p>
 </div>
 <div class="paragraph">
-<p>Here is an example of using the lower level API to access the commit message of the last commit:</p>
+<p>下面是一个使用低级 API 获取上次提交的提交消息的例子：</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -48,7 +48,7 @@ c.message
 </div>
 </div>
 <div class="paragraph">
-<p>To print a commit log using high-level porcelain API, one can use:</p>
+<p>要使用高级上层命令 API 打印提交日志，可以使用：</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -61,9 +61,9 @@ porcelain.log('.', max_entries=1)
 </div>
 </div>
 <div class="sect3">
-<h3 id="_further_reading">Further Reading</h3>
+<h3 id="_拓展阅读_2">拓展阅读</h3>
 <div class="paragraph">
-<p>The API documentation, tutorial, and many examples of how to do specific tasks with Dulwich are available on the official website <a href="https://www.dulwich.io" class="bare">https://www.dulwich.io</a>.</p>
+<p>在官方网站 <a href="https://www.dulwich.io" class="bare">https://www.dulwich.io</a> 上可以找到 API 文档、教程和许多关于如何使用 Dulwich 完成特定任务的示例。</p>
 </div>
 </div>
 <div id="nav"><a href="{{< previous-section >}}">prev</a> | <a href="{{< next-section >}}">next</a></div>
