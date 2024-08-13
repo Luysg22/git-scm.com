@@ -32,7 +32,7 @@ module:
   - source: external/docs/content
     target: content
 params:
-  hugo_version: 0.131.0
+  hugo_version: 0.132.0
   pagefind_version: 1.1.1-alpha.3
   latest_version: 2.46.0
   latest_relnote_url: https://raw.github.com/git/git/master/Documentation/RelNotes/2.46.0.txt
